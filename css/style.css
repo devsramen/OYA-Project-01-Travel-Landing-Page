@@ -518,6 +518,59 @@ ol,ul{
 }
 /* Most Destination End */
 
+/* Counter Start */
+#counter{
+    padding: 91px 0 110px;
+    background-image: url('../images/counterBG.png');
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    position: relative;
+}
+.counterContent{
+    position: relative;
+    z-index: 2;
+}
+.counterWrapper{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.counterTitle{
+    font-size: 55px;
+    font-weight: 700;
+    color: #adadad; /*#707070*/
+    text-align: center;
+}
+.counterPara{
+    font-size: 30px;
+    font-weight: 400;
+    color: #adadad; /*#707070*/
+    text-align: center;
+}
+/* Counter End */
+#groupPic{
+    margin-top: 90px;
+    position: relative;
+}
+.groupPicContent{
+    position: relative;
+    z-index: 2;
+}
+.groupPicWrapper{
+    display: flex;
+    justify-content: flex-start;
+    column-gap: 10px;
+}
+.groupPicWrapper img{
+    width: 850px;
+    height: 241px;
+}
+/* Group Start */
+
+/* Group End */
+
+
 
 
 /* NAV Start */
